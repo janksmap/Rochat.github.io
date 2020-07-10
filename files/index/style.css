@@ -94,3 +94,8 @@ html, body {
 .background.down-scroll + .background:not(.down-scroll) .content-wrapper {
   transform: translateY(15vh);
 }
+#secret {
+  z-index: 10;
+  background-color: blue;
+  color: white;
+}
